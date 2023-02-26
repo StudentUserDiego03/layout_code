@@ -2,19 +2,19 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Music Vault</title>
+<title>Sound Vault</title>
 <link rel="stylesheet" href="https://use.typekit.net/cva5nif.css">	
 	<style>
 		header{
-		background-color: rgba(227,61,64,1.00);
+		background-color: rgba(22,27,22,1.00);
 		font-family: anisette-std, sans-serif;
-		color: white;
+		color: rgba(39,233,153,1.00);
 		padding: 30px;
 		text-align:center;
 		height: 90px;	
 	}	
 		nav{	
-		background-color: darkred;
+		background-color: rgba(31,47,44,1.00);
 		color:white;
 		padding: 10px;		
 		font-family:;	
@@ -27,12 +27,15 @@
 		nav a:hover{
 		color: blue;	
 		}
+		nav a:active{
+		color: blue;	
+		}
 		
 		section{
-			height: 150px;
-			background-color: rgba(134,14,39,1.00);
+			height: 100px;
+			background-color: rgba(22,27,22,1.00);
 			font-family: anisette-std;
-			color: white;
+			color: rgba(39,233,153,1.00);
 			padding: 5px;
 			margin-top: 20%;
 			width: 57%;
@@ -44,13 +47,14 @@
 		}
 		
 		article{
-			height: 150px;
+			height: 100px;
+			width: 410px;
 			font-family: anisette-std;
-			background-color: red;
-			color: white;
+			background-color: rgba(22,27,22,1.00);
+			color: rgba(39,233,153,1.00);
 			padding: 5px;
 			margin-top: 20%;
-			float:;
+			float:left;
 	}
 		footer{
 			font-family: anisette-std;
@@ -70,10 +74,52 @@
 		}
 		
 		body{
-			background:url("images/alternative.jpg");
+			background:url("images/imageforalt.jpeg");
 			background-repeat:no-repeat;
 			background-size:cover;
 		}
+		.sellsheader{
+			background-color:rgba(22,27,22,1.00);
+			color:rgba(39,233,153,1.00);
+			font-family: anisette-std;
+			padding: 5px;
+			clear: both;	
+			text-align: center;
+		}
+		.sellssection{
+			background-color:rgba(39,233,153,1.00);
+			padding: 10px;
+			height:200px;
+			
+		}
+		.section{
+			height: 150px;
+			background-color: rgba(39,233,153,1.00);
+			font-family: anisette-std;
+			color: rgba(39,233,153,1.00);
+			padding: 5px;
+			width: 57%;
+			float: left;
+			
+		}
+		.article{
+			height: 150px;
+			width: 410px;
+			font-family: anisette-std;
+			background-color: rgba(39,233,153,1.00);
+			color: rgba(39,233,153,1.00);
+			padding: 5px;
+			float:left;
+			
+		}
+		.section p{
+			color: black;
+		}
+		
+		.article p{
+			color: black;
+		}
+		
 		
 </style>
 </head>
@@ -81,34 +127,70 @@
 <body>
 <div id ="block">	
 	<header>
-		<h1>ALT VAULT</h1>
+		<h1>SOUND VAULT</h1>
 		<h2 style = "font-size:15px;">&#127928;Your passion for music is our priority&#33;</h2>
 	</header>
 	
 	<nav style = "text-align: center;">
-		<a>Home</a>
-		<a>link 2</a>
-		<a>link 3</a>
-		<a>link 4</a>
+		<a href = "index.html">Home</a>
+		<a href ="browse.html">Shop</a>
+		<a href = "posts.html">Feeds</a>
+		<a href = "aboutus.html">About us</a>
 	</nav>	
 	
 	<aside style="font-family:anisette-std;color:white;font-size:40px;margin-top:30px;margin:">
-		get our best deals on our best<br>deals and discounts here!
+		get our best deals on our best<br>deals and discounts here!<br>
+		<a></a>
 	</aside>
 	
+	
+		
 	<section>
-		<h2>section</h2>
-		<p>Here you will find a wide selection of instruments</p>
+		<h2>WELCOME</h2>
+		
 	</section>
 	
 	<article>
-		<h2>article</h2>
-		<p>hello</p>
+		<h2>Latest news and feeds:</h2>
 	</article>
 	
+	<div class = "section">
+		<p>Here you will find a wide selection of Music production gear<br> at discounted prices! So feel free to look around and see if there's anything you like</p>
+	</div>
+
+	<div class = "article">
+		<p>No new articles yet:<br> All the latest feeds will be posted<br>Right here. </p>
+	</div>	
 	
+	
+	
+	<div class="sellsheader">
+		<h2>Browse By Interests</h2>
+	</div>
+	
+	<div class="sellssection">
+		<a href = "browse.html">
+		<img src = "images/acoustictwo.jpg" alt = "Acoustic section"  width="200" height="200" style = "float: left">
+		</a>
+		
+		<a href = "browse.html">
+		<img src = "images/amplified.jpg" alt = "Amplified section"  width="200" height="200" style = "float: left; margin-left: 50px;">
+		</a>
+		
+		<a href = "browse.html">
+		<img src = "images/percussion.jpg" alt = "Acoustic section"  width="200" height="200" style = "float: left; margin-left: 50px;">
+		</a>
+		
+		<a href = "browse.html">
+		<img src = "images/productionfixed.jpg" alt = "Production section"  width="200" height="200" style = "float: left; margin-left: 50px;">
+		</a>
+	</div>
 	<footer>
-		<p>diegogabriel@student.alamo.edu</p>
+		<p>dcardenascastane@student.alamo.edu</p>
+		<p>note: This website is just for a class project, and it isn't to promote a legit business</p>
+		<p>I don't own any of the images used here. and none of them originally had the included text, I added that in. All images used here belong to their respective owners, and no copyright infringement is intended. </p>
+		Links to original images here:
+		<a href = "posts.html">images used</a>
 	</footer>
 	
 	
