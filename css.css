@@ -70,13 +70,16 @@
 			background-size:cover;
 		}
 		.sellsheader{
-			background-color:darkcyan;
+			background-color:rgba(22,27,22,1.00);
+			color:rgba(39,233,153,1.00);
 			font-family: anisette-std;
 			padding: 5px;
 			clear: both;	
 			text-align: center;
 		}
 		.sellssection{
-			background-color:white;
+			background-color:rgba(39,233,153,1.00);
+			padding: 10px;
+			height:200px;
 			
 		}
