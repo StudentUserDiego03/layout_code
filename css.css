@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+		header{
+		background-color: rgba(22,27,22,1.00);
+		font-family: anisette-std, sans-serif;
+		color: rgba(39,233,153,1.00);
+		padding: 30px;
+		text-align:center;
+		height: 90px;	
+	}	
+		nav{	
+		background-color: rgba(31,47,44,1.00);
+		color:white;
+		padding: 10px;		
+			
+	    }
+		nav a{
+		font-family:anisette-std;	
+		margin: 15px;	
+		hover: red;	
+	}
+		nav a:hover{
+		color: blue;	
+		}
+		nav a:active{
+		color: blue;	
+		}
+		
+		section{
+			height: 150px;
+			background-color: rgba(31,47,44,1.00);
+			font-family: anisette-std;
+			color: rgba(39,233,153,1.00);
+			padding: 5px;
+			margin-top: 20%;
+			width: 57%;
+			float: left;
+	}
+	
+
+		article{
+			height: 150px;
+			width: 410px;
+			font-family: anisette-std;
+			background-color: rgba(31,47,44,1.00);
+			color: rgba(39,233,153,1.00);
+			padding: 5px;
+			margin-top: 20%;
+			float:left;
+	}
+		footer{
+			font-family: anisette-std;
+			background-color: darkslategray;
+			color: white;
+			padding:10px;
+			clear: both;	
+	}
+		aside{
+			
+		}
+		
+		#block{
+			width:1000px;
+			margin:0 auto;			
+		}
+		
+		body{
+			background:url("images/imageforalt.jpeg");
+			background-repeat:no-repeat;
+			background-size:cover;
+		}
+		.sellsheader{
+			background-color:darkcyan;
+			font-family: anisette-std;
+			padding: 5px;
+			clear: both;	
+			text-align: center;
+		}
+		.sellssection{
+			background-color:white;
+			
+		}
